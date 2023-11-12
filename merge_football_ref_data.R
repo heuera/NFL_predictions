@@ -32,8 +32,8 @@ for (i in seq_along(data_frames)) {
 }
 
 # Bind data frames into one data frame
-rushing <- do.call(rbind, data_frames)
+followed_bye <- do.call(rbind, data_frames) 
 
 # Write the combined data frame to a CSV file
-write.csv(rushing, "rushing.csv", row.names = TRUE)
+write.csv(followed_bye, "followed_bye.csv", row.names = TRUE)
 
