@@ -18,17 +18,20 @@ Data:
     - Schedule
        - Time zone change + start time 
        - Road games in previous week
-       - Bye week
+       - Followed bye week
+       - Short week
+    - Weather data
+        - Indoor/outdoor
+        - Temperature
     - Injury data?
-    - Weather data?
-    - Eventually work in individual 
+    - Eventually work in individual?
  
 Methods:
   - Start with one year (2022) for data processing 
   - Add more years once processing code is ready
 
 Processing
-  - Team passing/per game
+  - Team passing and rushing per game
         - calculate rolling average of yards/game
         - calculate rate of change of yards/game
         - run:pass ratio
